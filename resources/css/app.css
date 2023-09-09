@@ -1,0 +1,50 @@
+@import url("/resources/css/fonts.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-error{
+    @apply !border-red-600 
+}
+
+.swal2-x-mark-line-right, .swal2-x-mark-line-left{
+    @apply !bg-red-600 
+}
+
+.swal2-success-ring{
+    @apply !border-green-600
+}
+
+.swal2-success-line-tip, .swal2-success-line-long{
+    @apply !bg-green-400
+}
+
+.swal2-confirm{
+    @apply !bg-blue-500
+}
+
+.swal2-styled:focus{
+    @apply !ring-4 !ring-blue-200
+}
+
+.swal2-icon {
+    margin-top: 1.7rem !important;
+}
+
+.swal2-container {
+    padding-top: 5rem !important;
+}
+
+.swal2-title {
+    padding: 0.75rem 0 0 0 !important
+}
+
+.swal2-html-container {
+    margin: 1rem 0 !important
+}
+
+.swal2-styled {
+    padding: 0.4rem 1rem !important
+}
+
